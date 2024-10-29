@@ -23,8 +23,6 @@ body {
   width: 100%;
   text-align: center;
 }
-
-/* Search Bar */
 .search-container {
   display: flex;
   gap: 10px;
@@ -50,8 +48,6 @@ body {
 .search-button:hover {
   background-color: #ff6347;
 }
-
-/* Current Weather */
 .weather-current {
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -80,7 +76,6 @@ body {
   color: #666;
 }
 
-/* Forecast */
 .forecast-container {
   display: flex;
   justify-content: space-between;
@@ -108,9 +103,22 @@ body {
   color: #333;
 }
 
-/* Footer */
 .footer {
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 12px;
   color: #888;
+  text-align: center;
+}
+
+.footer p {
+  line-height: 1.5;
+}
+
+.footer a {
+  color: #ff7f50;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
